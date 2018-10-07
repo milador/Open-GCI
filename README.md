@@ -67,7 +67,52 @@ The following diagram represents the hardware of the Open-GCI interface.
 
 # Installation 
 
+# Hardware Setup Instructions
+
 Coming soon..
+
+# Software Setup Instructions
+
+  1. Install Raspbian on an SD card according to the official documents 
+
+https://www.raspberrypi.org/documentation/installation/installing-images/
+
+2.	Download Dependencies
+
+  2.1. Install the necessary packages
+```
+sudo apt-get update
+sudo apt-get install build-essential python-dev python-pip
+sudo pip install RPi.GPIO
+```
+  
+3.	Download gci_keyboard.py
+
+  3.1. Startup the raspberrypi zero W
+  
+  3.2. Open the command line
+  
+  3.3. Enter the pi directory
+  
+  3.4. Create a new python file using nano and name it gci_keyboard.py using following command: ```sudo nano gci_keyboar.py``` 
+  
+  3.5. Copy and paste the keyboard code from Software/gci_keyboard.py 
+  
+  3.6. Save the file and exit nano
+  
+4. Run code on bootup
+
+  4.1. Open /etc/rc.local using nano by running following command: ```sudo nano /etc/rc.local```
+  
+  4.2. Add the following line on its own line right before exit 0: ```sudo python /home/pi/gci_keyboard.py  &```
+  
+  4.3. Save and exit /etc/rc.local
+  
+  4.4. Reboot the raspberrypi zero W by running following command: ```sudo shutdown -r now```
+  
+5.	Varify software is running 
+  
+   5.1. The Led will change color from Blue to Green when the software is ready to use
 
 # Picture 
 
