@@ -67,11 +67,11 @@ The following diagram represents the hardware of the Open-GCI interface.
 
 # Installation 
 
-# Hardware Setup Instructions
+## Hardware Setup Instructions
 
 Coming soon..
 
-# Software Setup Instructions
+## Software Setup Instructions
 
   1. Install Raspbian on an SD card according to the official documents 
 
@@ -130,9 +130,16 @@ sudo python setup.py install
   
    6.1. The Led will change color from Blue to Green when the software is ready to use
 
+# PS4 to keyboard button mapping 
+
+<p align="center">
+<img align="center" src="https://raw.githubusercontent.com/milador/Open-GCI/master/Resources/Images/ps4-keyboard-mapping.png" width="50%" height="50%" alt="Open-GCI PS4 to keyboard button mapping"/>
+</p>
+
 # Picture 
 
 <p align="center">
 <img align="center" src="https://raw.githubusercontent.com/milador/Open-GCI/master/Resources/Images/opengci1.png" width="50%" height="50%" alt="Open-GCI Interface"/>
 </p>
+  
   
