@@ -79,40 +79,56 @@ https://www.raspberrypi.org/documentation/installation/installing-images/
 
 2.	Download Dependencies
 
-  2.1. Install the necessary packages
+  2.1. Startup the raspberrypi zero W
+  
+  2.2. Open the command line
+  
+  2.3. Install the necessary packages
 ```
 sudo apt-get update
-sudo apt-get install build-essential python-dev python-pip
+sudo apt-get install build-essential python-dev python-pip git scons swig
 sudo pip install RPi.GPIO
 ```
-  
-3.	Download gci_keyboard.py
 
-  3.1. Startup the raspberrypi zero W
+3.	Compile & Install rpi_ws281x Library
   
-  3.2. Open the command line
+  3.1. Download the library source and compile it using following command : 
+``` 
+git clone https://github.com/jgarff/rpi_ws281x.git
+cd rpi_ws281x
+scons
+``` 
+  3.2. Install the Python library by executing following command : 
+``` 
+cd python
+sudo python setup.py install
+``` 
   
-  3.3. Enter the pi directory
+4.	Download gci_keyboard.py
   
-  3.4. Create a new python file using nano and name it gci_keyboard.py using following command: ```sudo nano gci_keyboar.py``` 
+  4.1. Open the command line
   
-  3.5. Copy and paste the keyboard code from Software/gci_keyboard.py 
+  4.2. Enter the pi directory
   
-  3.6. Save the file and exit nano
+  4.3. Create a new python file using nano and name it gci_keyboard.py using following command: ```sudo nano gci_keyboar.py``` 
   
-4. Run code on bootup
+  4.4. Copy and paste the keyboard code from Software/gci_keyboard.py 
+  
+  4.5. Save the file and exit nano
+  
+5. Run code on bootup
 
-  4.1. Open /etc/rc.local using nano by running following command: ```sudo nano /etc/rc.local```
+  5.1. Open /etc/rc.local using nano by running following command: ```sudo nano /etc/rc.local```
   
-  4.2. Add the following line on its own line right before exit 0: ```sudo python /home/pi/gci_keyboard.py  &```
+  5.2. Add the following line on its own line right before exit 0: ```sudo python /home/pi/gci_keyboard.py  &```
   
-  4.3. Save and exit /etc/rc.local
+  5.3. Save and exit /etc/rc.local
   
-  4.4. Reboot the raspberrypi zero W by running following command: ```sudo shutdown -r now```
+  5.4. Reboot the raspberrypi zero W by running following command: ```sudo shutdown -r now```
   
-5.	Varify software is running 
+6.	Varify software is running 
   
-   5.1. The Led will change color from Blue to Green when the software is ready to use
+   6.1. The Led will change color from Blue to Green when the software is ready to use
 
 # Picture 
 
