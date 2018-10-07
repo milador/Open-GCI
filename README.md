@@ -18,6 +18,19 @@ Adaptive switches and USB keyboards are currently the two input methods that can
   
 - USB Wall Charger - 5V x 1
 
+# Diagram
+
+The following diagram represents the hardware of the Open-GCI interface.
+
+<p align="center">
+<img align="center" src="https://raw.githubusercontent.com/milador/Open-GCI/master/Resources/Images/opengci-diagram.png" width="50%" height="50%" alt="Open-GCI Diagram"/>
+</p>
+
+# Installation 
+
+Coming soon..
+
+# Picture 
 
 <p align="center">
 <img align="center" src="https://raw.githubusercontent.com/milador/Open-GCI/master/Resources/Images/opengci1.png" width="50%" height="50%" alt="Open-GCI Interface"/>
