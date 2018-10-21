@@ -6048,8 +6048,6 @@ In this library the device names are the same as the pin names of the symbols, t
 <part name="P+5" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+5V" device=""/>
 <part name="P+2" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="+5V/2" device=""/>
 <part name="P+6" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="+5V/2" device=""/>
-<part name="P+1" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="+5V/2" device=""/>
-<part name="P+7" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="+5V/2" device=""/>
 <part name="R1" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="0204/7" package3d_urn="urn:adsk.eagle:package:23498/1" value="470"/>
 <part name="GND5" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="P+8" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+5V" device=""/>
@@ -6101,8 +6099,6 @@ In this library the device names are the same as the pin names of the symbols, t
 <instance part="P+5" gate="1" x="280.67" y="167.64"/>
 <instance part="P+2" gate="G$1" x="287.02" y="166.37"/>
 <instance part="P+6" gate="G$1" x="3.81" y="114.3"/>
-<instance part="P+1" gate="G$1" x="67.31" y="124.46"/>
-<instance part="P+7" gate="G$1" x="-53.34" y="120.65"/>
 <instance part="R1" gate="G$1" x="115.57" y="127"/>
 <instance part="GND5" gate="1" x="222.25" y="-90.17"/>
 <instance part="P+8" gate="1" x="177.8" y="39.37"/>
@@ -6136,31 +6132,31 @@ In this library the device names are the same as the pin names of the symbols, t
 <wire x1="34.29" y1="90.17" x2="31.75" y2="90.17" width="0.1524" layer="91"/>
 <junction x="0" y="90.17"/>
 <pinref part="J_L2" gate="G$1" pin="S"/>
-<wire x1="-66.04" y1="104.14" x2="0" y2="104.14" width="0.1524" layer="91"/>
 <junction x="0" y="104.14"/>
 <pinref part="J_R1" gate="G$1" pin="S"/>
 <junction x="0" y="71.12"/>
-<wire x1="-66.04" y1="71.12" x2="0" y2="71.12" width="0.1524" layer="91"/>
+<wire x1="-66.04" y1="104.14" x2="0" y2="104.14" width="0.1524" layer="91"/>
 <pinref part="J_CIRCLE" gate="G$1" pin="S"/>
+<wire x1="-66.04" y1="71.12" x2="0" y2="71.12" width="0.1524" layer="91"/>
 <wire x1="-31.75" y1="82.55" x2="0" y2="82.55" width="0.1524" layer="91"/>
 <wire x1="-66.04" y1="87.63" x2="-31.75" y2="87.63" width="0.1524" layer="91"/>
 <wire x1="-31.75" y1="87.63" x2="-31.75" y2="82.55" width="0.1524" layer="91"/>
 <junction x="0" y="82.55"/>
 <pinref part="J_SQUARE" gate="G$1" pin="S"/>
 <junction x="0" y="55.88"/>
-<wire x1="-66.04" y1="55.88" x2="0" y2="55.88" width="0.1524" layer="91"/>
 <pinref part="J_HOME" gate="G$1" pin="S"/>
-<wire x1="-66.04" y1="39.37" x2="0" y2="39.37" width="0.1524" layer="91"/>
+<wire x1="-66.04" y1="55.88" x2="0" y2="55.88" width="0.1524" layer="91"/>
 <junction x="0" y="39.37"/>
 <pinref part="J_LEFT" gate="G$1" pin="S"/>
 <junction x="0" y="22.86"/>
-<wire x1="-66.04" y1="22.86" x2="0" y2="22.86" width="0.1524" layer="91"/>
+<wire x1="-66.04" y1="39.37" x2="0" y2="39.37" width="0.1524" layer="91"/>
 <pinref part="J_DOWN" gate="G$1" pin="S"/>
 <junction x="0" y="8.89"/>
-<wire x1="-66.04" y1="8.89" x2="0" y2="8.89" width="0.1524" layer="91"/>
+<wire x1="-66.04" y1="22.86" x2="0" y2="22.86" width="0.1524" layer="91"/>
 <pinref part="J_R2" gate="G$1" pin="S"/>
-<wire x1="85.09" y1="107.95" x2="34.29" y2="107.95" width="0.1524" layer="91"/>
+<wire x1="-66.04" y1="8.89" x2="0" y2="8.89" width="0.1524" layer="91"/>
 <junction x="34.29" y="107.95"/>
+<wire x1="85.09" y1="107.95" x2="34.29" y2="107.95" width="0.1524" layer="91"/>
 <wire x1="34.29" y1="90.17" x2="34.29" y2="77.47" width="0.1524" layer="91"/>
 <wire x1="34.29" y1="77.47" x2="34.29" y2="63.5" width="0.1524" layer="91"/>
 <wire x1="34.29" y1="63.5" x2="34.29" y2="38.1" width="0.1524" layer="91"/>
@@ -6171,13 +6167,13 @@ In this library the device names are the same as the pin names of the symbols, t
 <pinref part="J_UP" gate="G$1" pin="S"/>
 <junction x="34.29" y="90.17"/>
 <pinref part="J_SELECT" gate="G$1" pin="S"/>
-<wire x1="87.63" y1="6.35" x2="34.29" y2="6.35" width="0.1524" layer="91"/>
 <pinref part="J_START" gate="G$1" pin="S"/>
-<wire x1="86.36" y1="24.13" x2="34.29" y2="24.13" width="0.1524" layer="91"/>
+<wire x1="87.63" y1="6.35" x2="34.29" y2="6.35" width="0.1524" layer="91"/>
 <pinref part="J_TRIANGLE" gate="G$1" pin="S"/>
-<wire x1="86.36" y1="38.1" x2="34.29" y2="38.1" width="0.1524" layer="91"/>
+<wire x1="86.36" y1="24.13" x2="34.29" y2="24.13" width="0.1524" layer="91"/>
 <junction x="34.29" y="63.5"/>
 <pinref part="J_L1" gate="G$1" pin="S"/>
+<wire x1="86.36" y1="38.1" x2="34.29" y2="38.1" width="0.1524" layer="91"/>
 <wire x1="87.63" y1="63.5" x2="34.29" y2="63.5" width="0.1524" layer="91"/>
 <wire x1="86.36" y1="80.01" x2="60.96" y2="80.01" width="0.1524" layer="91"/>
 <wire x1="60.96" y1="80.01" x2="60.96" y2="77.47" width="0.1524" layer="91"/>
@@ -6185,7 +6181,6 @@ In this library the device names are the same as the pin names of the symbols, t
 <pinref part="J_X" gate="G$1" pin="S"/>
 <wire x1="60.96" y1="77.47" x2="34.29" y2="77.47" width="0.1524" layer="91"/>
 <junction x="34.29" y="92.71"/>
-<wire x1="85.09" y1="92.71" x2="34.29" y2="92.71" width="0.1524" layer="91"/>
 <pinref part="U$2" gate="G$1" pin="GND3"/>
 <pinref part="U$2" gate="G$1" pin="GND1"/>
 <pinref part="U$2" gate="G$1" pin="GND2"/>
@@ -6193,6 +6188,7 @@ In this library the device names are the same as the pin names of the symbols, t
 <junction x="34.29" y="38.1"/>
 <junction x="34.29" y="24.13"/>
 <junction x="34.29" y="6.35"/>
+<wire x1="85.09" y1="92.71" x2="34.29" y2="92.71" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="U$1" gate="G$1" pin="GND@8"/>
@@ -6816,70 +6812,6 @@ In this library the device names are the same as the pin names of the symbols, t
 <wire x1="33.02" y1="95.25" x2="33.02" y2="104.14" width="0.1524" layer="91"/>
 <wire x1="33.02" y1="104.14" x2="3.81" y2="104.14" width="0.1524" layer="91"/>
 <junction x="3.81" y="104.14"/>
-</segment>
-<segment>
-<wire x1="-53.34" y1="118.11" x2="-53.34" y2="99.06" width="0.1524" layer="91"/>
-<pinref part="J_DOWN" gate="G$1" pin="TS"/>
-<wire x1="-53.34" y1="99.06" x2="-53.34" y2="82.55" width="0.1524" layer="91"/>
-<wire x1="-53.34" y1="82.55" x2="-53.34" y2="66.04" width="0.1524" layer="91"/>
-<wire x1="-53.34" y1="66.04" x2="-53.34" y2="50.8" width="0.1524" layer="91"/>
-<wire x1="-53.34" y1="50.8" x2="-53.34" y2="34.29" width="0.1524" layer="91"/>
-<wire x1="-53.34" y1="34.29" x2="-53.34" y2="17.78" width="0.1524" layer="91"/>
-<wire x1="-53.34" y1="17.78" x2="-53.34" y2="3.81" width="0.1524" layer="91"/>
-<wire x1="-53.34" y1="3.81" x2="-66.04" y2="3.81" width="0.1524" layer="91"/>
-<pinref part="P+7" gate="G$1" pin="+5V/2"/>
-<pinref part="J_LEFT" gate="G$1" pin="TS"/>
-<wire x1="-66.04" y1="17.78" x2="-53.34" y2="17.78" width="0.1524" layer="91"/>
-<pinref part="J_HOME" gate="G$1" pin="TS"/>
-<wire x1="-66.04" y1="34.29" x2="-53.34" y2="34.29" width="0.1524" layer="91"/>
-<pinref part="J_L2" gate="G$1" pin="TS"/>
-<wire x1="-66.04" y1="99.06" x2="-53.34" y2="99.06" width="0.1524" layer="91"/>
-<pinref part="J_CIRCLE" gate="G$1" pin="TS"/>
-<wire x1="-66.04" y1="82.55" x2="-53.34" y2="82.55" width="0.1524" layer="91"/>
-<wire x1="-66.04" y1="66.04" x2="-53.34" y2="66.04" width="0.1524" layer="91"/>
-<pinref part="J_SQUARE" gate="G$1" pin="TS"/>
-<wire x1="-66.04" y1="50.8" x2="-53.34" y2="50.8" width="0.1524" layer="91"/>
-<junction x="-53.34" y="99.06"/>
-<junction x="-53.34" y="82.55"/>
-<junction x="-53.34" y="66.04"/>
-<junction x="-53.34" y="50.8"/>
-<junction x="-53.34" y="34.29"/>
-<junction x="-53.34" y="17.78"/>
-<pinref part="J_R1" gate="G$1" pin="TS"/>
-</segment>
-<segment>
-<pinref part="P+1" gate="G$1" pin="+5V/2"/>
-<wire x1="67.31" y1="121.92" x2="67.31" y2="102.87" width="0.1524" layer="91"/>
-<pinref part="J_R2" gate="G$1" pin="TS"/>
-<wire x1="85.09" y1="102.87" x2="67.31" y2="102.87" width="0.1524" layer="91"/>
-<wire x1="85.09" y1="87.63" x2="67.31" y2="87.63" width="0.1524" layer="91"/>
-<pinref part="J_L1" gate="G$1" pin="TS"/>
-<wire x1="67.31" y1="87.63" x2="67.31" y2="102.87" width="0.1524" layer="91"/>
-<wire x1="86.36" y1="74.93" x2="67.31" y2="74.93" width="0.1524" layer="91"/>
-<wire x1="67.31" y1="74.93" x2="67.31" y2="87.63" width="0.1524" layer="91"/>
-<pinref part="J_TRIANGLE" gate="G$1" pin="TS"/>
-<wire x1="87.63" y1="58.42" x2="67.31" y2="58.42" width="0.1524" layer="91"/>
-<wire x1="67.31" y1="58.42" x2="67.31" y2="74.93" width="0.1524" layer="91"/>
-<wire x1="86.36" y1="33.02" x2="67.31" y2="33.02" width="0.1524" layer="91"/>
-<wire x1="67.31" y1="33.02" x2="67.31" y2="58.42" width="0.1524" layer="91"/>
-<pinref part="J_SELECT" gate="G$1" pin="TS"/>
-<wire x1="86.36" y1="19.05" x2="67.31" y2="19.05" width="0.1524" layer="91"/>
-<wire x1="67.31" y1="19.05" x2="67.31" y2="33.02" width="0.1524" layer="91"/>
-<pinref part="J_RIGHT" gate="G$1" pin="TS"/>
-<wire x1="87.63" y1="1.27" x2="67.31" y2="1.27" width="0.1524" layer="91"/>
-<wire x1="67.31" y1="1.27" x2="67.31" y2="19.05" width="0.1524" layer="91"/>
-<wire x1="88.9" y1="-19.05" x2="67.31" y2="-19.05" width="0.1524" layer="91"/>
-<wire x1="67.31" y1="-19.05" x2="67.31" y2="1.27" width="0.1524" layer="91"/>
-<junction x="67.31" y="102.87"/>
-<junction x="67.31" y="87.63"/>
-<junction x="67.31" y="74.93"/>
-<junction x="67.31" y="58.42"/>
-<junction x="67.31" y="33.02"/>
-<junction x="67.31" y="19.05"/>
-<junction x="67.31" y="1.27"/>
-<pinref part="J_X" gate="G$1" pin="TS"/>
-<pinref part="J_START" gate="G$1" pin="TS"/>
-<pinref part="J_UP" gate="G$1" pin="TS"/>
 </segment>
 <segment>
 <wire x1="300.99" y1="158.75" x2="287.02" y2="158.75" width="0.1524" layer="91"/>
