@@ -1,7 +1,7 @@
 # File name: gci_keyboard.py
 # Author: Milad Hajihassan
 # Date created: 8/10/2018
-# Date last modified: 10/06/2018
+# Date last modified: 11/03/2018
 # Python Version: 2.7
 
 import os
@@ -129,8 +129,6 @@ def action_l2(tf):
     gpio.output(37, True)
     gpio.output(38, True)
     gpio.output(40, True)
-    time.sleep(tf)
-    clean_up()
 
 def action_o(tf):
     gpio.output(7, True)
@@ -148,8 +146,6 @@ def action_o(tf):
     gpio.output(37, True)
     gpio.output(38, True)
     gpio.output(40, True)
-    time.sleep(tf)
-    clean_up()
 	
 def action_r1(tf):
     gpio.output(7, True)
@@ -167,8 +163,6 @@ def action_r1(tf):
     gpio.output(37, True)
     gpio.output(38, True)
     gpio.output(40, True)
-    time.sleep(tf)
-    clean_up()
 	
 def action_square(tf):
     gpio.output(7, True)
@@ -186,8 +180,6 @@ def action_square(tf):
     gpio.output(37, True)
     gpio.output(38, True)
     gpio.output(40, True)
-    time.sleep(tf)
-    clean_up()
 	
 def action_home(tf):
     gpio.output(7, True)
@@ -205,8 +197,6 @@ def action_home(tf):
     gpio.output(37, True)
     gpio.output(38, True)
     gpio.output(40, True)
-    time.sleep(tf)
-    clean_up()
 	
 def action_left(tf):
     gpio.output(7, True)
@@ -224,8 +214,6 @@ def action_left(tf):
     gpio.output(37, True)
     gpio.output(38, True)
     gpio.output(40, True)
-    time.sleep(tf)
-    clean_up()
 	
 def action_down(tf):
     gpio.output(7, True)
@@ -243,8 +231,6 @@ def action_down(tf):
     gpio.output(37, True)
     gpio.output(38, True)
     gpio.output(40, True)
-    time.sleep(tf)
-    clean_up()	
 	
 	
 def action_r2(tf):
@@ -263,8 +249,6 @@ def action_r2(tf):
     gpio.output(37, True)
     gpio.output(38, True)
     gpio.output(40, True)
-    time.sleep(tf)
-    clean_up()	
 	
 def action_x(tf):
     gpio.output(7, True)
@@ -282,8 +266,6 @@ def action_x(tf):
     gpio.output(37, True)
     gpio.output(38, True)
     gpio.output(40, True)
-    time.sleep(tf)
-    clean_up()	
 	
 def action_l1(tf):
     gpio.output(7, True)
@@ -301,8 +283,6 @@ def action_l1(tf):
     gpio.output(37, True)
     gpio.output(38, True)
     gpio.output(40, True)
-    time.sleep(tf)
-    clean_up()	
 
 def action_triangle(tf):
     gpio.output(7, True)
@@ -320,8 +300,6 @@ def action_triangle(tf):
     gpio.output(37, False)
     gpio.output(38, True)
     gpio.output(40, True)
-    time.sleep(tf)
-    clean_up()	
 
 def action_start(tf):
     gpio.output(7, True)
@@ -339,8 +317,6 @@ def action_start(tf):
     gpio.output(37, True)
     gpio.output(38, True)
     gpio.output(40, False)
-    time.sleep(tf)
-    clean_up()	
 
 def action_select(tf):
     gpio.output(7, True)
@@ -358,8 +334,6 @@ def action_select(tf):
     gpio.output(37, True)
     gpio.output(38, False)
     gpio.output(40, True)
-    time.sleep(tf)
-    clean_up()	
 
 def action_right(tf):
     gpio.output(7, True)
@@ -377,8 +351,6 @@ def action_right(tf):
     gpio.output(37, True)
     gpio.output(38, True)
     gpio.output(40, True)
-    time.sleep(tf)
-    clean_up()
 	
 def action_up(tf):
     gpio.output(7, True)
@@ -396,8 +368,6 @@ def action_up(tf):
     gpio.output(37, True)
     gpio.output(38, True)
     gpio.output(40, True)
-    time.sleep(tf)
-    clean_up()
 	
 def clean_up():
     gpio.output(7, True)
