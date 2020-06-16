@@ -1,0 +1,13 @@
+Index,Quantity,Digikey Part Number,Manufacturer Part Number,Description,Unit Price (US),Total Price (US),Link,Link 2
+1,1,,,RASPBERRY PI ZERO W ,10,,https://www.canakit.com/raspberry-pi-zero-wireless.html?src=raspberrypi,
+2,1,,,Brook Universal Fighting Board ,89.95,,https://www.ebay.com/i/264484478017,https://focusattack.com/brook-universal-fighting-board-with-headers/
+3,2,296-1612-5-ND,SN74HCT245N,IC TXRX NON-INVERT 5.5V 20DIP,0.6,,https://www.digikey.com/product-detail/en/texas-instruments/SN74HCT245N/296-1612-5-ND/277258,
+4,2,1568-1213-ND,COM-12986,ADDRESS LED DISC SER RGB 5MM 5PC,2.95,,https://www.digikey.com/en/products/detail/sparkfun-electronics/COM-12986/5673799,
+5,1,S6104-ND,PPTC202LFBN-RC,"CONN HEADER FEM 40POS .1"" DL TIN",2.29,,https://www.digikey.com/en/products/detail/sullins-connector-solutions/PPTC202LFBN-RC/807240?s=N4IgTCBcDaIApwCoGEwAYwBkBiAhAcgLQBKyIAugL5A,
+6,1,S6106-ND,PPPC102LFBN-RC,"CONN HEADER FEM 20POS.1"" DL GOLD",1.26,,https://www.digikey.com/en/products/detail/sullins-connector-solutions/PPPC102LFBN-RC/807245?s=N4IgTCBcDaIAoIMIEYAMYAyAxAQgOQFoAlREAXQF8g,
+7,1,CF14JT4K70CT-ND,CF14JT4K70,RES 470K OHM 1/4W 5% AXIAL,0.1,,https://www.digikey.com/en/products/detail/stackpole-electronics-inc/CF14JT4K70/1741428?s=N4IgTCBcDaIMIDECMAWAUgFRQaQOwAYQBdAXyA,
+8,1,1528-1585-ND,1099,USB OTG HOST CABLE - MICROB OTG,2.5,,https://www.digikey.com/en/products/detail/adafruit-industries-llc/1099/5875794?s=N4IgTCBcDaIIwFYwA4C0jkNQOQCIgF0BfIA,
+9,15,CP1-3535NG-ND,SJ1-3535NG,CONN JACK STEREO 3.5MM R/A,1.19,,https://www.digikey.com/en/products/detail/cui-devices/SJ1-3535NG/738699,
+10,1,,,Sandisk Ultra 16GB Micro Class 10,6.9,,https://www.amazon.com/SanDisk-Ultra-Micro-Adapter-SDSQUNC-016G-GN6MA/dp/B010Q57SEE,
+11,2,CSC10KW-ND,CSC09A0110K0GEK,RES ARRAY 8 RES 10K OHM 9SIP,1.4,,https://www.digikey.com/en/products/detail/vishay-dale/CSC09A0110K0GEK/2713650?s=N4IgTCBcDaIMIGU4EYAMBpA6gWgHIBEQBdAXyA,
+,,,,,Subtotal,137.95,,
